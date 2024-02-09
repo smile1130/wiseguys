@@ -44,8 +44,9 @@ const Dashboard = () => {
                 </div>
               </div>
 
-              <button className="bg-[#222222] w-[150px] rounded-md p-4 border border-gray-500/70">
-                Claim Rewards
+              <button className="bg-[#00060a] rounded-md px-3 py-3 border border-gray-500/70 flex items-center gap-2">
+                <span>Claim Rewards</span>
+                <img src="/arrow.png" />
               </button>
             </div>
           </div>
