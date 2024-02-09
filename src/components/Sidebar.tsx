@@ -6,7 +6,7 @@ const Sidebar = () => {
   const location = useLocation();
 
   return (
-    <div className="flex flex-col gap-2 bg-bgPrimary w-[250px] py-4 h-custom">
+    <div className="flex flex-col gap-2 bg-bgPrimary min-w-[250px] py-4 h-custom">
       <Link
         to={"/"}
         className={`text-white font-medium text-16 px-8 py-2 flex items-center gap-2 cursor-pointer hover:text-[#00A3FF] ${

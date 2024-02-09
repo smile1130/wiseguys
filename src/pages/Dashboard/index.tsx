@@ -2,7 +2,7 @@ import React from "react";
 
 const Dashboard = () => {
   return (
-    <div className="bg-bgPrimary w-full pe-6 pb-6 text-white">
+    <div className="bg-bgPrimary w-full pe-4 pb-4 text-white">
       <div className="bg-black rounded-[10px] py-6 px-8 flex flex-col gap-8 h-full">
         <div className="">
           <p className="text-18">My Stats</p>

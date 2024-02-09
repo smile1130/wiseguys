@@ -2,7 +2,7 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div className="bg-bgPrimary w-full pe-6 pb-6 flex flex-col">
+    <div className="bg-bgPrimary w-full pe-4 pb-4 flex flex-col">
       <div className="bg-black rounded-[10px] px-8 py-6">
         <div className="flex items-start justify-between">
           <div className="p-4 w-fit border border-[#181818] rounded-[10px]">
