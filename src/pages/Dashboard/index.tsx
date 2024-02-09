@@ -6,8 +6,8 @@ const Dashboard = () => {
       <div className="bg-black rounded-[10px] py-6 px-8 flex flex-col gap-8 h-full">
         <div className="">
           <p className="text-18">My Stats</p>
-          <div className="flex justify-between gap-2 text-14 mt-3">
-            <div className="border border-gray-500/70 w-full flex flex-col justify-between rounded-md p-4">
+          <div className="flex gap-2 text-14 mt-3">
+            <div className="border border-gray-500/70 flex flex-col justify-between rounded-md p-4 gorw">
               <p className="text-[#9F9F9F]">Earnings Till Date</p>
               <div className="flex gap-2 items-center">
                 <span className="text-32 text-white font-bold">20.2 ETH</span>
@@ -16,15 +16,15 @@ const Dashboard = () => {
                 </span>
               </div>
             </div>
-            <div className="border border-gray-500/70 w-full flex flex-col justify-between rounded-md p-4">
+            <div className="border border-gray-500/70 flex flex-col justify-between rounded-md p-4 gorw">
               <p className="text-[#9F9F9F]">$WGUYS Token Holdings</p>
               <span className="text-16 font-bold">123,456.789 </span>
             </div>
-            <div className="border border-gray-500/70 w-full flex flex-col justify-between rounded-md p-4">
+            <div className="border border-gray-500/70 flex flex-col justify-between rounded-md p-4 grow">
               <p className="text-[#9F9F9F]">Voting Power</p>
               <span className="text-16 font-bold">3x</span>
             </div>
-            <div className="border border-gray-500/70 w-full flex flex-col justify-between rounded-md p-4">
+            <div className="border border-gray-500/70 flex flex-col justify-between rounded-md p-4 grow">
               <p className="text-[#9F9F9F]">Votes Placed Till Date</p>
               <span className="text-16 font-bold">123,456.789 </span>
             </div>
