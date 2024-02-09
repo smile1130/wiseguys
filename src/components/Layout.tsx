@@ -18,7 +18,9 @@ const Layout = () => {
       <main className="flex">
         <Sidebar />
         <Outlet />
-        <RSidebar isSwapToken={isSwapToken} />
+        {(location.pathname === "/Dashboard" || location.pathname === "/") && (
+          <RSidebar isSwapToken={isSwapToken} />
+        )}
       </main>
     </>
   );

@@ -9,9 +9,10 @@ const Sidebar = () => {
     <div className="flex flex-col gap-2 bg-bgPrimary min-w-[250px] py-4 h-custom">
       <Link
         to={"/"}
-        className={`text-white font-medium text-16 px-8 py-2 flex items-center gap-2 cursor-pointer hover:text-[#00A3FF] ${
-          location.pathname === "/" &&
-          "border-l-4 border-[#00A3FF] text-[#00A3FF]"
+        className={`font-medium text-16 px-8 py-2 flex items-center gap-2 cursor-pointer hover:text-[#00A3FF] ${
+          location.pathname === "/"
+            ? "border-l-4 border-[#00A3FF] text-[#00A3FF]"
+            : "text-white"
         }`}
       >
         <svg
@@ -27,9 +28,10 @@ const Sidebar = () => {
       </Link>
       <Link
         to={"/Dashboard"}
-        className={`text-white font-medium text-16 px-8 py-2 flex items-center gap-2 cursor-pointer hover:text-[#00A3FF] ${
-          location.pathname === "/Dashboard" &&
-          "border-l-4 border-[#00A3FF] text-[#00A3FF]"
+        className={` font-medium text-16 px-8 py-2 flex items-center gap-2 cursor-pointer hover:text-[#00A3FF] ${
+          location.pathname === "/Dashboard"
+            ? "border-l-4 border-[#00A3FF] text-[#00A3FF]"
+            : "text-white"
         }`}
       >
         <svg
@@ -47,9 +49,10 @@ const Sidebar = () => {
       </Link>
       <Link
         to={"/Partners"}
-        className={`text-white font-medium text-16 px-8 py-2 flex items-center gap-2 cursor-pointer hover:text-[#00A3FF] ${
-          location.pathname === "/Partners" &&
-          "border-l-4 border-[#00A3FF] text-[#00A3FF]"
+        className={` font-medium text-16 px-8 py-2 flex items-center gap-2 cursor-pointer hover:text-[#00A3FF] ${
+          location.pathname === "/Partners"
+            ? "border-l-4 border-[#00A3FF] text-[#00A3FF]"
+            : "text-white"
         }`}
       >
         <svg
@@ -66,9 +69,10 @@ const Sidebar = () => {
       </Link>
       <Link
         to={"/Stake"}
-        className={`text-white font-medium text-16 px-8 py-2 flex items-center gap-2 cursor-pointer hover:text-[#00A3FF] ${
-          location.pathname === "/Stake" &&
-          "border-l-4 border-[#00A3FF] text-[#00A3FF]"
+        className={`font-medium text-16 px-8 py-2 flex items-center gap-2 cursor-pointer hover:text-[#00A3FF] ${
+          location.pathname === "/Stake"
+            ? "border-l-4 border-[#00A3FF] text-[#00A3FF]"
+            : "text-white"
         }`}
       >
         <svg
