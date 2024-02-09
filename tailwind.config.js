@@ -12,7 +12,12 @@ module.exports = {
         18: "18px",
         20: "20px",
         24: "24px",
+        32: "32px",
         36: "36px",
+        64: "64px",
+      },
+      height: {
+        custom: "calc(100vh - 72px)",
       },
     },
   },
