@@ -26,7 +26,7 @@ const Navbar = () => {
             break;
     }
     return (
-        <div className="flex items-center justify-between bg-bgPrimary px-6 py-4 relative">
+        <div className="flex items-center justify-between bg-bgPrimary px-6 py-4 relative max-sm:fixed max-sm:w-full">
             <div className="flex gap-[70px]">
                 <Link to="/">
                     <img src="/logo.png" alt="logo" />

@@ -33,7 +33,7 @@ const Dashboard = () => {
                     </div>
                 </>
             ) : (
-                <div className="bg-black rounded-[10px] py-6 max-sm:py-3 px-8 max-sm:px-4 flex flex-col gap-8 h-full">
+                <div className="bg-black rounded-[10px] py-6 max-sm:py-3 px-8 max-sm:px-4 flex flex-col gap-8 h-full max-sm:mt-3">
                     <div className="">
                         <p className="text-18">My Stats</p>
                         <div className="flex max-sm:flex-col gap-2 text-14 mt-3">

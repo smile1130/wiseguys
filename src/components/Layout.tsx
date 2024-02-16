@@ -15,7 +15,7 @@ const Layout = () => {
     return (
         <>
             <Navbar />
-            <main className="flex max-sm:flex-col">
+            <main className="flex max-sm:flex-col max-sm:pt-[72px]">
                 <Sidebar />
                 <Outlet />
                 {(location.pathname === "/Dashboard" ||
