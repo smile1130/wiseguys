@@ -5,25 +5,26 @@ import Sidebar from "./Sidebar";
 import RSidebar from "./RSidebar";
 
 const Layout = () => {
-  const location = useLocation();
-  let isSwapToken;
-  if (location.pathname === "/") {
-    isSwapToken = true;
-  } else {
-    isSwapToken = false;
-  }
-  return (
-    <>
-      <Navbar />
-      <main className="flex">
-        <Sidebar />
-        <Outlet />
-        {(location.pathname === "/Dashboard" || location.pathname === "/") && (
-          <RSidebar isSwapToken={isSwapToken} />
-        )}
-      </main>
-    </>
-  );
+    const location = useLocation();
+    let isSwapToken;
+    if (location.pathname === "/") {
+        isSwapToken = true;
+    } else {
+        isSwapToken = false;
+    }
+    return (
+        <>
+            <Navbar />
+            <main className="flex max-sm:flex-col">
+                <Sidebar />
+                <Outlet />
+                {(location.pathname === "/Dashboard" ||
+                    location.pathname === "/") && (
+                    <RSidebar isSwapToken={isSwapToken} />
+                )}
+            </main>
+        </>
+    );
 };
 
 export default Layout;
